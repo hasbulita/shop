@@ -1,0 +1,141 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UMUDA SHOP</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/its-slider.css">
+        <link rel="stylesheet" href="css/accordion.css">
+        l
+        </head>
+        <body>
+        <header> 
+        <img src="img/logo.svg" alt="">
+         <nav>
+        <ul class="list">
+            <li class="list_item">
+                для начинающих 
+            </li>
+            <li class="list_item">
+                по низкой цене
+            </li>
+            <li class="list_item">
+                професиональные 
+            </li>
+        </ul>
+        </nav>
+        <!-- <button class="btn-theme">смена темы</button> -->
+        <div class="switch">
+          <input type="checkbox" id="toggle" class="switch_inp">
+          <label for="toggle" class="switch_lab"></label>
+        </div>
+        <button class="burger-btn" id="btn-menu">
+        <img src="img/Vector.svg" alt="" class="burger_img">
+        </button>
+        <div class="burger_menu" id="menu">
+        <ul class="burger_list">
+            <li class="burger_item">акции</li>
+            <li class="burger_item">уроки</li>
+            <li class="burger_item">новинки</li>
+            <li class="burger_item">скидки</li>
+            <li class="burger_item">спонсоры</li>
+
+        </ul>
+
+
+        </div>
+        </header>
+
+        <main class="main">
+        <section class="hero_block">
+        <div class="container container_hero-block">
+            <div class="hero-block_content">
+            <h2 class="hero-block_tittle">UMUDA SHOP</h2>
+            <h1 class="about_text1">Гитары разных моделей и по доступной цене</h1>
+            <h1 class="about_text2">Удобство и качество, выбор на любой вкус</h1>
+            <h1 class="buy_text">Цена:3339</h1>
+            <img src="img/money.svg" alt="" class="money_screen">
+        </div>
+        
+        <img src="img/screen.svg" alt="" class="hero-block_img">
+        </div>
+        <button class="buy_btn" id="btn" onclick="buy()">buy</button>
+        </section>
+        <section class="second">
+            <h1 class="second_tittle"> 
+                НАШИ ТОВАРЫ
+            </h1>
+            <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider-wrapper">
+                  <div class="itc-slider-items">
+                    <div class="itc-slider-item">
+                        <div class="card">
+                            <img src="img/card_image.svg" alt="" class="card_image">
+                            <h1 class="card_tittle">FENDER CD-60 BLACK</h1>
+                         </div>
+                    </div>
+                    <div class="itc-slider-item">
+                        <div class="card">
+                            <img src="img/card_image1.png" alt="" class="card_image">
+                            <h1 class="card_tittle">Larrivee OM-40-MH LRB</h1>
+                         </div>
+                    </div>
+                    <div class="itc-slider-item">
+                        <div class="card">
+                            <img src="img/card_image2.png" alt="" class="card_image">
+                            <h1 class="card_tittle">
+                                FLIGHT F-230C NA
+                            </h1>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                <button class="itc-slider-btn itc-slider-btn-next"></button>
+              </div>
+        </section>
+        <section class="map_contacts">
+
+        <div class="map_image">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5145c186e246c01e7ba7ab81a327fbbbf09af3d102b00f9af1b55fa0481bfccf&amp;source=constructor" class="map" frameborder="0"></iframe>
+        </div>
+        <div class="contacts_tittle">
+            <h1 class="cont_tittle">Контакты</h1>
+        </div> 
+        <div class="location">
+          <h1 class="location_text">Ленинградская ул., с24Г, Химки</h1>
+          <img src="img/map_image.svg" alt="" class="location_image">
+        </div>   
+        
+
+
+        </section>
+        <section class="accordion">
+            <div class="accordion" id="accordion-1">
+                <div class="accordion__item accordion__item_show">
+                  <div class="accordion__header">
+                    Акустическая гитары
+                  </div>
+                  <div class="accordion__body">
+                    Акустическая гитара — струнный музыкальный инструмент. Относится к группе щипковых инструментов. Звук из извлекается щипком или ударом пальцев по струнам.
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__header">
+                    электрогитара
+                  </div>
+                  <div class="accordion__body">
+                    Электрогита́ра — струнный щипковый электрический музыкальный инструмент, разновидность гитары, имеющая электромагнитные звукосниматели, преобразующие колебания металлических струн в колебания электрического тока.
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+        </main>
+        <script src="scripts/its-slider.js"></script> 
+        <script src="scripts/main.js"></script>
+        <script src="scripts/accordion.js"></script>
+        <script src="scripts/theme.js"></script>
+        </body>
+        </html>
